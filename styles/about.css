@@ -98,7 +98,7 @@ svg path:nth-child(10) {
 .cube {
     width: 300px;
     height: 300px;
-
+    transform-style: preserve-3d;
 }
 .cube img {
     width: 300px;
@@ -127,7 +127,6 @@ svg path:nth-child(10) {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform-style: preserve-3d;
 } 
 :root {
     --color1: #ccccff55;
