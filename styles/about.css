@@ -106,7 +106,7 @@ svg path:nth-child(10) {
 }
 @keyframes cube {
     0% {
-        transform: rotateY(0deg);
+        transform: rotate(0deg);
 
     }
     100%{
@@ -115,9 +115,9 @@ svg path:nth-child(10) {
 
 }
 .cube:hover {
-    /* transition: 3s; */
+    transition: 3s;
     animation: cube 3s linear infinite;
-    /* transform: rotateY(60deg); */
+    transform: rotateY(60deg);
 }
 .cube div{
     width: 100%;
