@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>portfolio</title>
-    <style>
-        * { 
-            margin: 0; 
-            padding: 0; 
-            box-sizing: border-box;
-        }
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="about.css">
+    <!-- <style>
+
         body {
             perspective: 1000px;
         }
@@ -138,7 +136,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-
         } 
         :root {
             --color1: #ccccff55;
@@ -185,11 +182,9 @@
                 width: 100%;
                 height: 120px;
                 justify-content: center;
-                /* background-color: #066cfa; */
+
                 border-bottom: 1px solid #e2e2e2;
-                /* 글자 위치 조정 */
-                /* padding-left: 12.5%;
-                padding-top: 60px; */
+
             }
             #main {
                 display: flex;
@@ -202,8 +197,7 @@
             }
             #content {
                 width: 45%;
-                /* height: 400px; */
-                /* background-color: #00ff90; */
+
             }
             #footer {
                 width: 100%;
@@ -260,6 +254,12 @@
             }
             .footertext {
                 padding-top: 40px;
+            }
+            .contentCube {
+                padding-bottom: 30px;
+            }
+            .contentCubeTitle {
+                padding-bottom: 30px;
             }
             
             .totop{
@@ -354,6 +354,12 @@
             .footertext {
                 padding-top: 40px;
             }
+            .contentCube {
+                padding-bottom: 30px;
+            }
+            .contentCubeTitle {
+                padding-bottom: 30px;
+            }
             .totop{
                 position: fixed;
                 bottom: 50px;
@@ -441,11 +447,17 @@
             .footertext {
                 padding-top: 40px;
             }
+            .contentCube {
+                padding-bottom: 30px;
+            }
+            .contentCubeTitle {
+                padding-bottom: 30px;
+            }
             .totop{
                 display: none;
             }
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <div id="flex-container">
@@ -581,27 +593,27 @@
                 </div>
                 <br>
                 <hr>
-
-                    <div class="contentWorks">
-                        <h2>🎲cube</h2>
+                    <div class="contentCube">
+                        <div class="contentCubeTitle">
+                            <h2>🎲cube</h2>
+                        </div>
+                        <div class="cube">
+                            <div class="front">
+                                <img src="image1.jpg">
+                            </div>
+                            <div class="back">
+                                <img src="image2.jpg">
+                            </div>
+                            <div class="left">
+                                <img src="image3.jpg">
+                            </div>
+                            <div class="right">
+                                <img src="image4.jpg">
+                            </div>
+                            <div class="bottom">bottom</div>
+                            <div class="top">top</div>
+                        </div>
                     </div>
-                    <div class="cube">
-                        <div class="front">
-                            <img src="image1.jpg">
-                        </div>
-                        <div class="back">
-                            <img src="image2.jpg">
-                        </div>
-                        <div class="left">
-                            <img src="image3.jpg">
-                        </div>
-                        <div class="right">
-                            <img src="image4.jpg">
-                        </div>
-                        <div class="bottom">bottom</div>
-                        <div class="top">top</div>
-                    </div>
-
             </div>
             <div class="totop">
                 <a href="#header"><img src="totop.png" width="30px" height="30px"></a>
